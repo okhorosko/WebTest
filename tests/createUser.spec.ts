@@ -65,10 +65,10 @@ await page.locator('[id="products"]').isVisible();
 await page.getByRole('button', { name: 'View' }).first().click();
 await page.getByRole('button', { name: 'Add to Cart' }).click();
 await page.getByRole('button', { name: '   Cart' }).click();
-await expect(page.getByRole('button', { name: 'Buy Now❯' })).toBeVisible();
+await expect(page.getByRole('heading', { name: 'ZARA COAT' })).toBeVisible();
 // Step 5: Checkout
 await page.getByRole('button', { name: 'Checkout❯' }).click();
-
+// create 
 await page.locator('input[type="text"]').first().fill('4242424242424242');
 await page.getByRole('combobox').nth(1).selectOption('26');
 await page.locator('input[type="text"]').nth(1).fill('123');
