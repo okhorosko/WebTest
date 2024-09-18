@@ -16,7 +16,7 @@ const productPage = new Product(page)
 const cartPage = new Cart(page)
 const checkoutPage = new Checkout(page)
 
-await page.goto("https://rahulshettyacademy.com/client");
+await signUpPage.open();
 await signUpPage.inputSignUpCreadentials();
 await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
 await dashboardPage.openProduct();

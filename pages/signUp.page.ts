@@ -3,6 +3,9 @@ import { AppComponent } from "./appComponen.page";
 
 export class SignUp extends AppComponent{
     [x: string]: any;
+    async open(){
+        await this.page.goto("https://rahulshettyacademy.com/client");
+    }
 
     async inputSignUpCreadentials(){
         await this.page.locator('[href="/client/auth/register"]').click();
