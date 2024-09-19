@@ -9,7 +9,7 @@ export class SignUp extends AppComponent{
 
     async inputSignUpCreadentials(){
         await this.page.locator('[href="/client/auth/register"]').click();
-        await this.page.locator('[id="firstName"]').fill(dataSet.firstName);
+        await this.inputFirstName(dataSet.firstName);
         await this.page.locator('[id="lastName"]').fill(dataSet.lastName);
         await this.page.locator('[id="userEmail"]').fill(dataSet.userEmail);
         await this.page.locator('[id="userMobile"]').fill(dataSet.userMobile);
@@ -18,9 +18,17 @@ export class SignUp extends AppComponent{
         await this.page.getByLabel('Male', { exact: true }).check();
         await this.page.getByRole('combobox').selectOption('2: Student');
         await this.page.getByRole('checkbox').check();
-        await this.page.getByRole('button', { name: 'Register' }).click();
-
+        await this.clickregisterButton();
 
     }
+
+    async clickregisterButton(){
+        await this.page.getByRole('button', { name: 'Register' }).click();
+    }
+
+    async inputFirstName(firstName:string){
+        await this.page.locator('[id="firstName"]').fill(firstName);
+
+}
 
 }

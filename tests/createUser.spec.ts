@@ -1,53 +1,63 @@
-import test, { expect } from "@playwright/test";
+import test, { expect, request } from "@playwright/test";
 import { dataSet } from "../utils/dataSet";
-import { Login } from "../pages/login.page";
-import { SignUp } from "../pages/signUp.page";
-import { Dashboard } from "../pages/dashboard.page";
-import { Product } from "../pages/product.page";
-import { Checkout } from "../pages/checkout.page";
-import { Cart } from "../pages/cart.page";
+import { App } from "../pages/app";
+import { Api } from "../pages/api";
 
 test('Purchase first product in a list', async ({ page }) => {
 
-const loginPage = new Login(page)
-const signUpPage = new SignUp(page)
-const dashboardPage = new Dashboard(page)
-const productPage = new Product(page)
-const cartPage = new Cart(page)
-const checkoutPage = new Checkout(page)
+const app = new App(page)
 
-    await signUpPage.open();
-    await signUpPage.inputSignUpCreadentials();
-    await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
-    await dashboardPage.openProduct();
-    await productPage.addToCart();
-    await cartPage.cartLoaded();
-    await cartPage.checkout();
-    await checkoutPage.inputPaymentCredentials();
-    await checkoutPage.completePayment();
+    await app.signUpPage.open();
+    await app.signUpPage.inputSignUpCreadentials();
+    await app.loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
+    await app.dashboardPage.openProduct();
+    await app.productPage.addToCart();
+    await app.cartPage.cartLoaded();
+    await app.cartPage.checkout();
+    await app.checkoutPage.inputPaymentCredentials();
+    await app.checkoutPage.completePayment();
 
 
 });
 
 test('Continue shoping', async ({ page }) => {
 
-    const loginPage = new Login(page)
-    const signUpPage = new SignUp(page)
-    const dashboardPage = new Dashboard(page)
-    const productPage = new Product(page)
-    const cartPage = new Cart(page)
-    const checkoutPage = new Checkout(page)
+const app = new App(page)
     
-    await signUpPage.open();
+    await app.signUpPage.open();
     //await signUpPage.inputSignUpCreadentials();
-    await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
-    await dashboardPage.openProduct();
-    await productPage.addToCart();
-    await cartPage.cartLoaded();
-    await cartPage.continueShoping();
-    await cartPage.checkout();
-    await checkoutPage.inputPaymentCredentials();
-    await checkoutPage.completePayment();
+    await app.loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
+    await app.dashboardPage.openProduct();
+    await app.productPage.addToCart();
+    await app.cartPage.cartLoaded();
+    await app.cartPage.continueShoping();
+    await app.cartPage.checkout();
+    await app.checkoutPage.inputPaymentCredentials();
+    await app.checkoutPage.completePayment();
     
 
 });
+
+test.only('Continue shoping with API registration', async ({ page }) => {
+
+    const app = new App(page)
+    const apiContext = await request.newContext()
+    const api = new Api(apiContext)
+        
+        const user = await api.createUser(dataSet.userEmail);
+        await app.loginPage.open();
+        await app.loginPage.inputLoginCreadentials(user.email,dataSet.userPassword);
+        await app.dashboardPage.openProduct();
+        await app.productPage.addToCart();
+        await app.cartPage.cartLoaded();
+        await app.cartPage.continueShoping();
+        await app.cartPage.checkout();
+        await app.checkoutPage.inputPaymentCredentials();
+        await app.checkoutPage.completePayment();
+        
+    
+    });
+
+    // todo: 
+    //add tests for validation for input fields registration/login
+    //create api method for login
