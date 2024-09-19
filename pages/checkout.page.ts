@@ -2,7 +2,6 @@ import { expect } from "@playwright/test";
 import { AppComponent } from "./appComponen.page";
 
 export class Checkout extends AppComponent{
-    [x: string]: any;
 
     async inputPaymentCredentials(){
         await this.page.locator('input[type="text"]').first().fill('4242424242424242');
