@@ -16,16 +16,38 @@ const productPage = new Product(page)
 const cartPage = new Cart(page)
 const checkoutPage = new Checkout(page)
 
-await signUpPage.open();
-await signUpPage.inputSignUpCreadentials();
-await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
-await dashboardPage.openProduct();
-await productPage.addToCart();
-await cartPage.cartLoaded();
-await cartPage.checkout();
-await checkoutPage.inputPaymentCredentials();
-await checkoutPage.completePayment();
+    await signUpPage.open();
+    await signUpPage.inputSignUpCreadentials();
+    await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
+    await dashboardPage.openProduct();
+    await productPage.addToCart();
+    await cartPage.cartLoaded();
+    await cartPage.checkout();
+    await checkoutPage.inputPaymentCredentials();
+    await checkoutPage.completePayment();
+
 
 });
 
+test('Continue shoping', async ({ page }) => {
 
+    const loginPage = new Login(page)
+    const signUpPage = new SignUp(page)
+    const dashboardPage = new Dashboard(page)
+    const productPage = new Product(page)
+    const cartPage = new Cart(page)
+    const checkoutPage = new Checkout(page)
+    
+    await signUpPage.open();
+    //await signUpPage.inputSignUpCreadentials();
+    await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
+    await dashboardPage.openProduct();
+    await productPage.addToCart();
+    await cartPage.cartLoaded();
+    await cartPage.continueShoping();
+    await cartPage.checkout();
+    await checkoutPage.inputPaymentCredentials();
+    await checkoutPage.completePayment();
+    
+
+});
