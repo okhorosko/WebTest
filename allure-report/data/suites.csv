@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","8255","Purchase first product in a list","chromium","Wed Sep 18 14:00:10 EEST 2024","passed","Wed Sep 18 14:00:18 EEST 2024","","createUser.spec.ts","",""
+"","86845","Purchase first product in a list","chromium","Thu Sep 19 09:41:17 EEST 2024","passed","Thu Sep 19 09:42:44 EEST 2024","","createUser.spec.ts","",""

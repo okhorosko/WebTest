@@ -21,6 +21,7 @@ await signUpPage.inputSignUpCreadentials();
 await loginPage.inputLoginCreadentials(dataSet.userEmail,dataSet.userPassword);
 await dashboardPage.openProduct();
 await productPage.addToCart();
+await page.pause();
 await cartPage.cartLoaded();
 await cartPage.checkout();
 await checkoutPage.inputPaymentCredentials();
