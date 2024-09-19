@@ -15,8 +15,15 @@ export class Cart extends AppComponent{
     }
 
     async checkout(){
-    await expect(this.page.getByRole('button', { name: 'Checkout❯'})).toBeVisible();
-    await this.page.getByRole('button', { name: 'Checkout❯' }).click();
+        await expect(this.page.getByRole('button', { name: 'Checkout❯'})).toBeVisible();
+        await this.page.getByRole('button', { name: 'Checkout❯' }).click();
+
+    }
+
+
+    async continueShoping(){
+        await this.page.getByRole('button', { name: 'Continue Shopping' }).click();
+        await this.page.getByRole('button', { name: '   Cart' }).click();
 
     }
 
