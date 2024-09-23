@@ -1,7 +1,9 @@
 import { AppComponent } from "./appComponen.page";
 
 export class Login extends AppComponent{
-async open(){
+
+
+    async open(){
     await this.page.goto("https://rahulshettyacademy.com/client");
 
 }
@@ -14,5 +16,14 @@ async open(){
         await this.page.getByRole('button', { name: 'Login' }).click();
 
     }
+
+    async injectToken(token:string){
+        this.page.addInitScript(value=>{
+            window.localStorage.setItem('token',value)
+        },token) 
+        await this.open();
+
+    }
+
 
 }

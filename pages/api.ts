@@ -22,12 +22,39 @@ const createUser = await apiContext.post('https://rahulshettyacademy.com/api/eco
     confirmPassword: dataSet.userPassword,
     required:true
     
+    
 }});
 
-expect (createUser.ok()).toBeTruthy();
-return {email}
+// console.log('Status Code:', createUser.status());
+const responseBody = await createUser.json();
+console.log('Response Body:', responseBody);
+
+//expect (createUser.ok()).toBeTruthy();
+return {email,responseBody}
 
 };
 
+async signIn(email:string){
+    const apiContext = await request.newContext();
+    const signIn = await apiContext.post(`${dataSet.mainUrl}/api/ecom/auth/login`, {
+        data: {
+            userEmail: email,
+            userPassword: dataSet.userPassword,
+        }
+    });
+
+    expect (signIn.ok()).toBeTruthy();
+
+    // console.log('Status Code:', signIn.status());
+    const responseBody = await signIn.json();
+    const message = responseBody.message;
+    const token = responseBody.token;
+    const userId = responseBody.userId;
+    expect (message).toEqual('Login Successfully');
+    //console.log('Response Body:', responseBody);
+
+    return {token,userId}
+
+}
 
 }
