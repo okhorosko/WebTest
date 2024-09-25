@@ -27,7 +27,7 @@ const createUser = await apiContext.post('https://rahulshettyacademy.com/api/eco
 
 // console.log('Status Code:', createUser.status());
 const responseBody = await createUser.json();
-console.log('Response Body:', responseBody);
+//console.log('Response Body:', responseBody);
 
 //expect (createUser.ok()).toBeTruthy();
 return {email,responseBody}

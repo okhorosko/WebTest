@@ -9,10 +9,14 @@ export const dataSet = {
 
 export const validation = {
     
-        userPasswordLessThen8Symbols:'LessThen8Symbols',
-        userPasswordMoreThen8Symbols:'MoreThen8Symbols',
+        PasswordIncorrect:'123',
+        PasswordLessThen8Symbols:'1234567',
+        PasswordMoreThen8Symbols:'123456789',
+        PasswordEmpty:"",
         
-        userEmailWithoutDog:'testemail.com'
+        EmailIncorrect:'testemail@oleksiimail222.com',
+        EmailWithoutDog:'testemail.com',
+        EmailEmpty:''
 
 }
 
