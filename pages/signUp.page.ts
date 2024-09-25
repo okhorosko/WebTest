@@ -18,8 +18,24 @@ export class SignUp extends AppComponent{
         await this.page.getByLabel('Male', { exact: true }).check();
         await this.page.getByRole('combobox').selectOption('2: Student');
         await this.page.getByRole('checkbox').check();
-        await this.clickregisterButton();
+        //await this.clickregisterButton();
 
+    }
+
+    async inputSignUpEmail(email:string){
+        await this.page.locator('[id="userEmail"]').fill(email);
+        
+
+    }
+
+    async inputSignUpPass(userPassword:string){
+        await this.page.locator('[id="userPassword"]').fill(userPassword);
+        
+    }
+
+    async inputSignUpPassConfirm(userPasswordConfirm:string){
+        await this.page.locator('[id="confirmPassword"]').fill(userPasswordConfirm);
+        
     }
 
     async clickregisterButton(){
