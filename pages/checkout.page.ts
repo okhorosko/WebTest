@@ -17,4 +17,6 @@ export class Checkout extends AppComponent{
         await expect(this.page.getByRole('heading', { name: 'Thankyou for the order.' })).toBeVisible();
     }
 
+
+    
 }
