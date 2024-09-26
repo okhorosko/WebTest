@@ -8,4 +8,10 @@ export class Dashboard extends AppComponent{
         await this.page.getByRole('button', { name: 'View' }).first().click();
     }
 
+    async openCart(){
+        //await new Promise(resolve => setTimeout(resolve, 2000)); // Wait for 2 seconds
+        await this.page.getByRole('button', { name: '   Cart' }).click();
+
+    }
+
 }

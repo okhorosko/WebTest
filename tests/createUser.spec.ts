@@ -8,8 +8,8 @@ test('Sign up', async ({ page }) => {
     const app = new App(page)
     
     await app.signUpPage.open();
-    await page.pause();
     await app.signUpPage.inputSignUpCreadentials();
+    await app.signUpPage.clickregisterButton();
     await expect(page.getByText('Registered Successfully')).toBeVisible();
 
     });
@@ -27,7 +27,7 @@ test('Sign up via API', async ({ page }) => {
     await app.loginPage.open();
     await app.loginPage.injectToken(loggedUser.token);
     await app.loginPage.open();
-    await page.pause();
+    
 
     });
 
@@ -51,7 +51,7 @@ test('Sign up via API', async ({ page }) => {
         await app.loginPage.open();
         await app.loginPage.injectToken(loggedUser.token);
         await app.loginPage.open();
-        await page.pause();
+        
 
         });
 
@@ -117,7 +117,6 @@ test('Sign up via API', async ({ page }) => {
         const user = await api.createUser(dataSet.userEmail);
         
         await app.loginPage.open();
-        await page.pause();
         await app.loginPage.inputLoginCreadentials(dataSet.userEmail,validation.PasswordEmpty);
         await expect(page.getByText('*Password is required')).toBeVisible();
 
@@ -140,12 +139,11 @@ test('Sign up via API', async ({ page }) => {
     
         });
 
-    test.only('Sign up. Password validation', async ({ page }) => {
+    test('Sign up. Password validation', async ({ page }) => {
 
         const app = new App(page)
         
         await app.signUpPage.open();
-        await page.pause();
         await app.signUpPage.inputSignUpCreadentials();
         await app.signUpPage.inputSignUpPass(validation.PasswordEmpty);
         await app.signUpPage.clickregisterButton();
