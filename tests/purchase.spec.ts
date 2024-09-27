@@ -34,14 +34,16 @@ test('API preconditions for Checkout', async ({ page }) => {
     const api = new Api(apiContext);
     const user = await api.createUser(dataSet.userEmail);
     const loggedUser = await api.signIn(user.email);
+    const product = await api.addToCart(loggedUser.token, loggedUser.userId);
 
-    await api.addToCart(loggedUser.token, loggedUser.userId);
+    
     await app.loginPage.injectToken(loggedUser.token);
-    await app.loginPage.open();
-    await app.dashboardPage.openCart();
-    await app.cartPage.checkout();
+    await page.pause();
+    //await app.loginPage.open();
+    await page.goto(`https://rahulshettyacademy.com/client/dashboard/order?prop=%5B%${product.productId}%5D`);
+    // await app.dashboardPage.openCart();
+    // await app.cartPage.checkout();
     await app.checkoutPage.inputPaymentCredentials();
     await app.checkoutPage.completePayment();
 
 });
-
