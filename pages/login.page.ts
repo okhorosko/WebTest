@@ -22,6 +22,7 @@ export class Login extends AppComponent{
             window.localStorage.setItem('token',value)
         },token) 
         await this.open();
+        await this.open();
 
     }
 

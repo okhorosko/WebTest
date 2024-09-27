@@ -59,6 +59,7 @@ async signIn(email:string){
 
 async addToCart(token:string,userId:string) {
     const apiContext = await request.newContext();
+    const productId = "6581ca399fd99c85e8ee7f45"
     const addToCart = await apiContext.post(`${dataSet.mainUrl}/api/ecom/user/add-to-cart`, {
         headers: {
             Authorization: token, // token - doesn't work???    
@@ -66,7 +67,7 @@ async addToCart(token:string,userId:string) {
         data: {
             _id: userId,
             product: {
-                _id: "6581ca399fd99c85e8ee7f45",
+                _id: productId,
                 productName: "ZARA COAT 3",
                 productCategory: "fashion",
                 productSubCategory: "shirts",
@@ -90,6 +91,7 @@ async addToCart(token:string,userId:string) {
     console.log('Response Body:', responseBody);
     expect (message).toEqual('Product Added To Cart');
     
+    return{productId}
 }
 
 }

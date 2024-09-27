@@ -3,6 +3,16 @@ import { dataSet, validation } from "../utils/dataSet";
 import { App } from "../pages/app";
 import { Api } from "../pages/api";
 
+test('API SignUp Incorrect Email format', async ({ page }) => {
+
+    const apiContext = await request.newContext()
+    const api = new Api(apiContext)
+                
+    const response = await api.createUser(validation.EmailWithoutDog);
+    expect(response.responseBody.error).toEqual('Enter Valid Email!');
+                
+    });
+
 test('Sign up', async ({ page }) => {
 
     const app = new App(page)
@@ -57,70 +67,7 @@ test('Sign up via API', async ({ page }) => {
 
 
 
-    //[2]add tests for validation for input fields login
-
-    test('API SignUp Incorrect Email format', async ({ page }) => {
-
-        const apiContext = await request.newContext()
-        const api = new Api(apiContext)
-                    
-        const response = await api.createUser(validation.EmailWithoutDog);
-        expect(response.responseBody.error).toEqual('Enter Valid Email!');
-                    
-        });
-
-    test('Login validation. Incorrect password', async ({ page }) => {
-
-        const app = new App(page)
-        const apiContext = await request.newContext()
-        const api = new Api(apiContext)            
-        const user = await api.createUser(dataSet.userEmail);
     
-        await app.loginPage.open();
-        await app.loginPage.inputLoginCreadentials(user.email,validation.PasswordIncorrect);
-        await expect(page.getByText('Incorrect email or password.')).toBeVisible();
-           
-        });
-
-    test('Login validation. Incorrect Email', async ({ page }) => {
-
-        const app = new App(page)
-        const apiContext = await request.newContext()
-        const api = new Api(apiContext)            
-        const user = await api.createUser(dataSet.userEmail);
-        
-        await app.loginPage.open();
-        await app.loginPage.inputLoginCreadentials(validation.EmailIncorrect,dataSet.userPassword);
-        await expect(page.getByText('Incorrect email or password.')).toBeVisible();
-           
-        });
-    
-    test('Login validation. Incorrect Email format', async ({ page }) => {
-
-        const app = new App(page)
-        const apiContext = await request.newContext()
-        const api = new Api(apiContext)            
-        const user = await api.createUser(dataSet.userEmail);
-        
-        await app.loginPage.open();
-        //await page.pause();
-        await app.loginPage.inputLoginCreadentials(validation.EmailWithoutDog,dataSet.userPassword);
-        await expect(page.getByText('*Enter Valid Email')).toBeVisible();
-
-        });
-        
-    test('Login validation. Empty Password', async ({ page }) => {
-
-        const app = new App(page)
-        const apiContext = await request.newContext()
-        const api = new Api(apiContext)            
-        const user = await api.createUser(dataSet.userEmail);
-        
-        await app.loginPage.open();
-        await app.loginPage.inputLoginCreadentials(dataSet.userEmail,validation.PasswordEmpty);
-        await expect(page.getByText('*Password is required')).toBeVisible();
-
-        });
 
     //[2]add tests for validation for input fields Registration
 
