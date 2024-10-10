@@ -47,3 +47,18 @@ test('API preconditions for Checkout', async ({ page }) => {
     await app.checkoutPage.completePayment();
 
 });
+
+test('env', async ({ page }) => {
+    
+    console.log (process.env)
+    const app = new App(page)
+    const apiContext = await request.newContext()
+    const api = new Api(apiContext)
+    const user = await api.createUser(dataSet.userEmail);
+        
+        await app.loginPage.open();
+        await app.loginPage.inputLoginCreadentials(process.env.USER_EMAIL,process.env.USER_PASSWORD);
+        await app.dashboardPage.openProduct();
+    
+
+});
