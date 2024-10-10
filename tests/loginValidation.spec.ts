@@ -5,7 +5,7 @@ import { Api } from "../pages/api";
 
 let app;
 
-test.describe.only("Login Validation", () => {
+test.describe("Login Validation", () => {
   let user;
 
   test.beforeEach(async ({ page }) => {
