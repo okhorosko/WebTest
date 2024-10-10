@@ -1,0 +1,131 @@
+[ {
+  "uid" : "ba65fbd83c1cd95c",
+  "name" : "Login validation. Incorrect password",
+  "time" : {
+    "start" : 1728547813514,
+    "stop" : 1728547818116,
+    "duration" : 4602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c429927390aabd5",
+  "name" : "API preconditions for Checkout",
+  "time" : {
+    "start" : 1728547840880,
+    "stop" : 1728547840880,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ff4dbdd134b872c5",
+  "name" : "Sign up via API",
+  "time" : {
+    "start" : 1728547796206,
+    "stop" : 1728547800756,
+    "duration" : 4550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eeea9a806a3276d",
+  "name" : "Sign up",
+  "time" : {
+    "start" : 1728547791594,
+    "stop" : 1728547796203,
+    "duration" : 4609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da31f38531ec609b",
+  "name" : "Login validation. Incorrect Email format",
+  "time" : {
+    "start" : 1728547822737,
+    "stop" : 1728547827161,
+    "duration" : 4424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "336251e0e69e273a",
+  "name" : "Login validation. Incorrect Email",
+  "time" : {
+    "start" : 1728547818122,
+    "stop" : 1728547822734,
+    "duration" : 4612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30b0d71a1f75fcc5",
+  "name" : "env",
+  "time" : {
+    "start" : 1728548449520,
+    "stop" : 1728548749528,
+    "duration" : 300008
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5dc3ccf6bc16fab8",
+  "name" : "API SignUp Incorrect Email format",
+  "time" : {
+    "start" : 1728547790525,
+    "stop" : 1728547791406,
+    "duration" : 881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17bbc22838e62dce",
+  "name" : "Login validation. Empty Password",
+  "time" : {
+    "start" : 1728547827166,
+    "stop" : 1728547831362,
+    "duration" : 4196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98e5847424adfda7",
+  "name" : "Sign up. Password validation",
+  "time" : {
+    "start" : 1728547809329,
+    "stop" : 1728547813506,
+    "duration" : 4177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "229824bf34dfa01b",
+  "name" : "Sign up. Email validation",
+  "time" : {
+    "start" : 1728547805579,
+    "stop" : 1728547809325,
+    "duration" : 3746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e3b15dc153e56f6",
+  "name" : "Continue shoping with API registration",
+  "time" : {
+    "start" : 1728547831368,
+    "stop" : 1728547840875,
+    "duration" : 9507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3582fa08369166da",
+  "name" : "Sign in via API",
+  "time" : {
+    "start" : 1728547800759,
+    "stop" : 1728547805573,
+    "duration" : 4814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

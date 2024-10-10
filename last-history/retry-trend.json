@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 32,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/32/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 13,
+    "retry" : 2
+  }
+}, {
   "buildOrder" : 31,
   "reportUrl" : "https://okhorosko.github.io/WebTest/31/",
   "reportName" : "Allure Report with history",

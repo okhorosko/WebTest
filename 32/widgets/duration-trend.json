@@ -1,0 +1,31 @@
+[ {
+  "buildOrder" : 32,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/32/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 959003
+  }
+}, {
+  "buildOrder" : 31,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/31/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 1862961
+  }
+}, {
+  "buildOrder" : 30,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/30/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 1253724
+  }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/29/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 18694
+  }
+}, {
+  "data" : { }
+} ]

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Test timeout of 300000ms exceeded.",
+      "children" : [ {
+        "name" : "env",
+        "uid" : "30b0d71a1f75fcc5",
+        "parentUid" : "68be014d3706cb52493442822f8e87d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728548449520,
+          "stop" : 1728548749528,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "68be014d3706cb52493442822f8e87d1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
