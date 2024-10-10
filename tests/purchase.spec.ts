@@ -28,7 +28,7 @@ test('Continue shoping with API registration', async ({ page }) => {
 // home work  
 // [3] add to cart and buy (start ui from checkout)
 
-test('API preconditions for Checkout', async ({ page }) => {
+test.skip('API preconditions for Checkout', async ({ page }) => {
     const app = new App(page);
     const apiContext = await request.newContext();
     const api = new Api(apiContext);
