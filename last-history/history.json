@@ -4,11 +4,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c7a350e5944da161",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/c7a350e5944da161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546785160,
+        "stop" : 1728546790287,
+        "duration" : 5127
+      }
+    }, {
       "uid" : "af06b5c45a9d301b",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/af06b5c45a9d301b",
       "status" : "passed",
@@ -34,11 +43,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "6f3f45a6e4609f09",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/6f3f45a6e4609f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546764044,
+        "stop" : 1728546767655,
+        "duration" : 3611
+      }
+    }, {
       "uid" : "71e4561826e1a560",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/71e4561826e1a560",
       "status" : "passed",
@@ -64,11 +82,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e8fbfae639acccaf",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/e8fbfae639acccaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546790295,
+        "stop" : 1728546799786,
+        "duration" : 9491
+      }
+    }, {
       "uid" : "ee42aa87d381bd4e",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/ee42aa87d381bd4e",
       "status" : "passed",
@@ -94,11 +121,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e5781d95b9cf8e89",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/e5781d95b9cf8e89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546776345,
+        "stop" : 1728546781091,
+        "duration" : 4746
+      }
+    }, {
       "uid" : "155230f8d6809d98",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/155230f8d6809d98",
       "status" : "passed",
@@ -124,11 +160,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7c7d62d1d32ce19f",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/7c7d62d1d32ce19f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546771927,
+        "stop" : 1728546776340,
+        "duration" : 4413
+      }
+    }, {
       "uid" : "c0b286f0e12cb46",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/c0b286f0e12cb46",
       "status" : "passed",
@@ -154,11 +199,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e316edc0dc0a8399",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/e316edc0dc0a8399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546747392,
+        "stop" : 1728546748326,
+        "duration" : 934
+      }
+    }, {
       "uid" : "e3b3b71d801cdbe6",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/e3b3b71d801cdbe6",
       "status" : "passed",
@@ -184,11 +238,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b7dabcbe570da7c9",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/b7dabcbe570da7c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546754174,
+        "stop" : 1728546758880,
+        "duration" : 4706
+      }
+    }, {
       "uid" : "a97b46d34524afdc",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/a97b46d34524afdc",
       "status" : "passed",
@@ -214,11 +277,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "fd91e5ae972ad9a",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/fd91e5ae972ad9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546767661,
+        "stop" : 1728546771917,
+        "duration" : 4256
+      }
+    }, {
       "uid" : "3f3a10dee5803438",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/3f3a10dee5803438",
       "status" : "passed",
@@ -244,11 +316,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c389f0d44d49e8e1",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/c389f0d44d49e8e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546758885,
+        "stop" : 1728546764040,
+        "duration" : 5155
+      }
+    }, {
       "uid" : "950d2c48d27f3b3e",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/950d2c48d27f3b3e",
       "status" : "passed",
@@ -272,13 +353,23 @@
   "6d79578a618c2d56bb1a2855bf6222a3:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "1418c5c764c93725",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/1418c5c764c93725",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 300000ms exceeded.",
+      "time" : {
+        "start" : 1728548310345,
+        "stop" : 1728548610353,
+        "duration" : 300008
+      }
+    }, {
       "uid" : "e847840b23f244f5",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/e847840b23f244f5",
       "status" : "broken",
@@ -303,13 +394,23 @@
   "58149d83f9ba85c86fdf5c3a27a6c433:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "6aeede10b0461f54",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/6aeede10b0461f54",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 300000ms exceeded.",
+      "time" : {
+        "start" : 1728547401109,
+        "stop" : 1728547701117,
+        "duration" : 300008
+      }
+    }, {
       "uid" : "6ca2eedc83dcdd1e",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/6ca2eedc83dcdd1e",
       "status" : "broken",
@@ -336,11 +437,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "1e6bd1b83a5729c5",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/1e6bd1b83a5729c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546781095,
+        "stop" : 1728546785155,
+        "duration" : 4060
+      }
+    }, {
       "uid" : "40c7a4291304f4",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/40c7a4291304f4",
       "status" : "passed",
@@ -366,11 +476,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a72f6568d0de743f",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/a72f6568d0de743f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546749602,
+        "stop" : 1728546754171,
+        "duration" : 4569
+      }
+    }, {
       "uid" : "339da46d5cdff118",
       "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/339da46d5cdff118",
       "status" : "passed",

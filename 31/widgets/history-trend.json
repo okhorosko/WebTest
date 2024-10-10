@@ -1,0 +1,46 @@
+[ {
+  "buildOrder" : 31,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/31/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 13
+  }
+}, {
+  "buildOrder" : 30,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/30/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 13
+  }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "https://okhorosko.github.io/WebTest/29/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 13,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 13
+  }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+} ]

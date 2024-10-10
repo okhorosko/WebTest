@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://okhorosko.github.io/WebTest",
+  "buildOrder" : 31,
+  "buildName" : "GitHub Actions Run #11269746463",
+  "buildUrl" : "https://github.com/okhorosko/WebTest/actions/runs/11269746463",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://okhorosko.github.io/WebTest/31/"
+} ]

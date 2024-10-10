@@ -1,0 +1,513 @@
+{
+  "468ebe0699e2e42115d8375bf4042a56:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c7a350e5944da161",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/c7a350e5944da161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546785160,
+        "stop" : 1728546790287,
+        "duration" : 5127
+      }
+    }, {
+      "uid" : "af06b5c45a9d301b",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/af06b5c45a9d301b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546502689,
+        "stop" : 1728546507068,
+        "duration" : 4379
+      }
+    }, {
+      "uid" : "2ae4f4c7f272321f",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/2ae4f4c7f272321f",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-5xLmLC --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4517\n  - [pid=4517][err] [4517:4517:1010/074615.441928:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4517][err] [4517:4517:1010/074615.441950:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546375360,
+        "stop" : 1728546375367,
+        "duration" : 7
+      }
+    } ]
+  },
+  "1e04058df7330c2840935cdfff7f65a2:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "6f3f45a6e4609f09",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/6f3f45a6e4609f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546764044,
+        "stop" : 1728546767655,
+        "duration" : 3611
+      }
+    }, {
+      "uid" : "71e4561826e1a560",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/71e4561826e1a560",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546481373,
+        "stop" : 1728546485101,
+        "duration" : 3728
+      }
+    }, {
+      "uid" : "52be677fd9bb450c",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/52be677fd9bb450c",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-v6luF2 --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4029\n  - [pid=4029][err] [4029:4029:1010/074607.629349:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4029][err] [4029:4029:1010/074607.629374:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546367546,
+        "stop" : 1728546367555,
+        "duration" : 9
+      }
+    } ]
+  },
+  "0bb1b0bfdce646a1ad94a4fe8d9f2411:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e8fbfae639acccaf",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/e8fbfae639acccaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546790295,
+        "stop" : 1728546799786,
+        "duration" : 9491
+      }
+    }, {
+      "uid" : "ee42aa87d381bd4e",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/ee42aa87d381bd4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546507076,
+        "stop" : 1728546516681,
+        "duration" : 9605
+      }
+    }, {
+      "uid" : "cbc16fe3816f3dfd",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/cbc16fe3816f3dfd",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-4nbybQ --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4614\n  - [pid=4614][err] [4614:4614:1010/074617.006311:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4614][err] [4614:4614:1010/074617.006340:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546376909,
+        "stop" : 1728546376915,
+        "duration" : 6
+      }
+    } ]
+  },
+  "815ac43cd7ea180fd18d471acd29ac1e:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e5781d95b9cf8e89",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/e5781d95b9cf8e89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546776345,
+        "stop" : 1728546781091,
+        "duration" : 4746
+      }
+    }, {
+      "uid" : "155230f8d6809d98",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/155230f8d6809d98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546494258,
+        "stop" : 1728546498538,
+        "duration" : 4280
+      }
+    }, {
+      "uid" : "9f3d533f172cabcd",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/9f3d533f172cabcd",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-PB9xdX --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4317\n  - [pid=4317][err] [4317:4317:1010/074612.317574:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4317][err] [4317:4317:1010/074612.317600:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546372235,
+        "stop" : 1728546372241,
+        "duration" : 6
+      }
+    } ]
+  },
+  "5f67357ed1c6f22bd793c3e03426c354:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "7c7d62d1d32ce19f",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/7c7d62d1d32ce19f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546771927,
+        "stop" : 1728546776340,
+        "duration" : 4413
+      }
+    }, {
+      "uid" : "c0b286f0e12cb46",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/c0b286f0e12cb46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546489508,
+        "stop" : 1728546494253,
+        "duration" : 4745
+      }
+    }, {
+      "uid" : "997ecec619baec2a",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/997ecec619baec2a",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-NRDsyf --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4221\n  - [pid=4221][err] [4221:4221:1010/074610.765818:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4221][err] [4221:4221:1010/074610.765844:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546370686,
+        "stop" : 1728546370692,
+        "duration" : 6
+      }
+    } ]
+  },
+  "62c185e71ed970e885348caf7ec622a9:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e316edc0dc0a8399",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/e316edc0dc0a8399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546747392,
+        "stop" : 1728546748326,
+        "duration" : 934
+      }
+    }, {
+      "uid" : "e3b3b71d801cdbe6",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/e3b3b71d801cdbe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546464913,
+        "stop" : 1728546465753,
+        "duration" : 840
+      }
+    }, {
+      "uid" : "c6a28fd5fc20e3e5",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/c6a28fd5fc20e3e5",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-HoWQCZ --remote-debugging-pipe --no-startup-window\n  - <launched> pid=3640\n  - [pid=3640][err] [3640:3640:1010/074601.416016:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=3640][err] [3640:3640:1010/074601.416040:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546361336,
+        "stop" : 1728546361342,
+        "duration" : 6
+      }
+    } ]
+  },
+  "196e14a868178a438c62d879913d3702:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b7dabcbe570da7c9",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/b7dabcbe570da7c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546754174,
+        "stop" : 1728546758880,
+        "duration" : 4706
+      }
+    }, {
+      "uid" : "a97b46d34524afdc",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/a97b46d34524afdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546471883,
+        "stop" : 1728546476647,
+        "duration" : 4764
+      }
+    }, {
+      "uid" : "9ac31ebb280cbbb1",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/9ac31ebb280cbbb1",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-23TqRC --remote-debugging-pipe --no-startup-window\n  - <launched> pid=3834\n  - [pid=3834][err] [3834:3834:1010/074604.521628:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=3834][err] [3834:3834:1010/074604.521656:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546364445,
+        "stop" : 1728546364451,
+        "duration" : 6
+      }
+    } ]
+  },
+  "359da9752b4b188daaedf0c35e5862d4:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "fd91e5ae972ad9a",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/fd91e5ae972ad9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546767661,
+        "stop" : 1728546771917,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "3f3a10dee5803438",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/3f3a10dee5803438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546485106,
+        "stop" : 1728546489497,
+        "duration" : 4391
+      }
+    }, {
+      "uid" : "b963a0d4df323742",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/b963a0d4df323742",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-coIB8x --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4125\n  - [pid=4125][err] [4125:4125:1010/074609.205054:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4125][err] [4125:4125:1010/074609.205933:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546369126,
+        "stop" : 1728546369132,
+        "duration" : 6
+      }
+    } ]
+  },
+  "4a6b2ee3fbd2110a1943baf688d8bd3b:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c389f0d44d49e8e1",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/c389f0d44d49e8e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546758885,
+        "stop" : 1728546764040,
+        "duration" : 5155
+      }
+    }, {
+      "uid" : "950d2c48d27f3b3e",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/950d2c48d27f3b3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546476652,
+        "stop" : 1728546481368,
+        "duration" : 4716
+      }
+    }, {
+      "uid" : "5add153816441929",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/5add153816441929",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-qtx2mA --remote-debugging-pipe --no-startup-window\n  - <launched> pid=3933\n  - [pid=3933][err] [3933:3933:1010/074606.067282:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=3933][err] [3933:3933:1010/074606.067311:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546365988,
+        "stop" : 1728546365994,
+        "duration" : 6
+      }
+    } ]
+  },
+  "6d79578a618c2d56bb1a2855bf6222a3:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1418c5c764c93725",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/1418c5c764c93725",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 300000ms exceeded.",
+      "time" : {
+        "start" : 1728548310345,
+        "stop" : 1728548610353,
+        "duration" : 300008
+      }
+    }, {
+      "uid" : "e847840b23f244f5",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/e847840b23f244f5",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 300000ms exceeded.",
+      "time" : {
+        "start" : 1728547418629,
+        "stop" : 1728547718637,
+        "duration" : 300008
+      }
+    }, {
+      "uid" : "58856f52b460f4fe",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/58856f52b460f4fe",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-hjkhAn --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4810\n  - [pid=4810][err] [4810:4810:1010/074620.102864:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4810][err] [4810:4810:1010/074620.102889:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546380024,
+        "stop" : 1728546380030,
+        "duration" : 6
+      }
+    } ]
+  },
+  "58149d83f9ba85c86fdf5c3a27a6c433:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "6aeede10b0461f54",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/6aeede10b0461f54",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 300000ms exceeded.",
+      "time" : {
+        "start" : 1728547401109,
+        "stop" : 1728547701117,
+        "duration" : 300008
+      }
+    }, {
+      "uid" : "6ca2eedc83dcdd1e",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/6ca2eedc83dcdd1e",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 300000ms exceeded.",
+      "time" : {
+        "start" : 1728547118042,
+        "stop" : 1728547418050,
+        "duration" : 300008
+      }
+    }, {
+      "uid" : "11ae19e1cb3e6ad9",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/11ae19e1cb3e6ad9",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-3drTva --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4713\n  - [pid=4713][err] [4713:4713:1010/074618.560360:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4713][err] [4713:4713:1010/074618.560384:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546378480,
+        "stop" : 1728546378486,
+        "duration" : 6
+      }
+    } ]
+  },
+  "9676483505d3b3aaee441051f0f95914:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1e6bd1b83a5729c5",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/1e6bd1b83a5729c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546781095,
+        "stop" : 1728546785155,
+        "duration" : 4060
+      }
+    }, {
+      "uid" : "40c7a4291304f4",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/40c7a4291304f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546498542,
+        "stop" : 1728546502685,
+        "duration" : 4143
+      }
+    }, {
+      "uid" : "be0e775bcd506332",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/be0e775bcd506332",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-NZBKG8 --remote-debugging-pipe --no-startup-window\n  - <launched> pid=4416\n  - [pid=4416][err] [4416:4416:1010/074613.891392:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=4416][err] [4416:4416:1010/074613.891418:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546373807,
+        "stop" : 1728546373813,
+        "duration" : 6
+      }
+    } ]
+  },
+  "49437078a06546bc52b9d326f1a94bb9:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "a72f6568d0de743f",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/31//#testresult/a72f6568d0de743f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546749602,
+        "stop" : 1728546754171,
+        "duration" : 4569
+      }
+    }, {
+      "uid" : "339da46d5cdff118",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/30//#testresult/339da46d5cdff118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728546467367,
+        "stop" : 1728546471882,
+        "duration" : 4515
+      }
+    }, {
+      "uid" : "8c5711057a62e0be",
+      "reportUrl" : "https://okhorosko.github.io/WebTest/29//#testresult/8c5711057a62e0be",
+      "status" : "failed",
+      "statusDetails" : "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n╔════════════════════════════════════════════════════════════════════════════════════════════════╗\n║ Looks like you launched a headed browser without having a XServer running.                     ║\n║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║\n║                                                                                                ║\n║ <3 Playwright Team                                                                             ║\n╚════════════════════════════════════════════════════════════════════════════════════════════════╝\nCall log:\n  - <launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-weWakj --remote-debugging-pipe --no-startup-window\n  - <launched> pid=3737\n  - [pid=3737][err] [3737:3737:1010/074602.976491:ERROR:ozone_platform_x11.cc(244)] Missing X server or $DISPLAY\n  - [pid=3737][err] [3737:3737:1010/074602.976518:ERROR:env.cc(258)] The platform failed to initialize.  Exiting.\n",
+      "time" : {
+        "start" : 1728546362898,
+        "stop" : 1728546362904,
+        "duration" : 6
+      }
+    } ]
+  }
+}
