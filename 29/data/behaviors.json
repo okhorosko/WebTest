@@ -1,0 +1,174 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "API SignUp Incorrect Email format",
+    "uid" : "c6a28fd5fc20e3e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546361336,
+      "stop" : 1728546361342,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Sign up",
+    "uid" : "8c5711057a62e0be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546362898,
+      "stop" : 1728546362904,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Sign up via API",
+    "uid" : "9ac31ebb280cbbb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546364445,
+      "stop" : 1728546364451,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Sign in via API",
+    "uid" : "5add153816441929",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546365988,
+      "stop" : 1728546365994,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Sign up. Email validation",
+    "uid" : "52be677fd9bb450c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546367546,
+      "stop" : 1728546367555,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Sign up. Password validation",
+    "uid" : "b963a0d4df323742",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546369126,
+      "stop" : 1728546369132,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Login validation. Incorrect password",
+    "uid" : "997ecec619baec2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546370686,
+      "stop" : 1728546370692,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Login validation. Incorrect Email",
+    "uid" : "9f3d533f172cabcd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546372235,
+      "stop" : 1728546372241,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Login validation. Incorrect Email format",
+    "uid" : "be0e775bcd506332",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546373807,
+      "stop" : 1728546373813,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Login validation. Empty Password",
+    "uid" : "2ae4f4c7f272321f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546375360,
+      "stop" : 1728546375367,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "Continue shoping with API registration",
+    "uid" : "cbc16fe3816f3dfd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546376909,
+      "stop" : 1728546376915,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "API preconditions for Checkout",
+    "uid" : "11ae19e1cb3e6ad9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546378480,
+      "stop" : 1728546378486,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  }, {
+    "name" : "env",
+    "uid" : "58856f52b460f4fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1728546380024,
+      "stop" : 1728546380030,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chromium" ]
+  } ],
+  "name" : "behaviors"
+}
