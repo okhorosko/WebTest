@@ -38,7 +38,7 @@ test('API preconditions for Checkout', async ({ page }) => {
 
     
     await app.loginPage.injectToken(loggedUser.token);
-    await page.pause();
+    //await page.pause();
     //await app.loginPage.open();
     await page.goto(`https://rahulshettyacademy.com/client/dashboard/order?prop=%5B%${product.productId}%5D`);
     // await app.dashboardPage.openCart();
