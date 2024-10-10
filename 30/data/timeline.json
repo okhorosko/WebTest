@@ -1,0 +1,208 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1245-423",
+    "children" : [ {
+      "name" : "pid-3491-worker-0",
+      "children" : [ {
+        "name" : "Login validation. Incorrect Email",
+        "uid" : "155230f8d6809d98",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546494258,
+          "stop" : 1728546498538,
+          "duration" : 4280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign in via API",
+        "uid" : "950d2c48d27f3b3e",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546476652,
+          "stop" : 1728546481368,
+          "duration" : 4716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "API SignUp Incorrect Email format",
+        "uid" : "e3b3b71d801cdbe6",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546464913,
+          "stop" : 1728546465753,
+          "duration" : 840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up",
+        "uid" : "339da46d5cdff118",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546467367,
+          "stop" : 1728546471882,
+          "duration" : 4515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "API preconditions for Checkout",
+        "uid" : "b4e79a34c10e83ab",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728546516686,
+          "stop" : 1728546816695,
+          "duration" : 300009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Login validation. Incorrect Email format",
+        "uid" : "40c7a4291304f4",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546498542,
+          "stop" : 1728546502685,
+          "duration" : 4143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "API preconditions for Checkout",
+        "uid" : "24dc743f0c30e0bb",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728546817156,
+          "stop" : 1728547117284,
+          "duration" : 300128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "API preconditions for Checkout",
+        "uid" : "6ca2eedc83dcdd1e",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728547118042,
+          "stop" : 1728547418050,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Login validation. Incorrect password",
+        "uid" : "c0b286f0e12cb46",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546489508,
+          "stop" : 1728546494253,
+          "duration" : 4745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Continue shoping with API registration",
+        "uid" : "ee42aa87d381bd4e",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546507076,
+          "stop" : 1728546516681,
+          "duration" : 9605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up. Email validation",
+        "uid" : "71e4561826e1a560",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546481373,
+          "stop" : 1728546485101,
+          "duration" : 3728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Login validation. Empty Password",
+        "uid" : "af06b5c45a9d301b",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546502689,
+          "stop" : 1728546507068,
+          "duration" : 4379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up via API",
+        "uid" : "a97b46d34524afdc",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546471883,
+          "stop" : 1728546476647,
+          "duration" : 4764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "env",
+        "uid" : "e847840b23f244f5",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728547418629,
+          "stop" : 1728547718637,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up. Password validation",
+        "uid" : "3f3a10dee5803438",
+        "parentUid" : "f0aeb0b77f8bcdf9368fab30aa9461e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546485106,
+          "stop" : 1728546489497,
+          "duration" : 4391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "f0aeb0b77f8bcdf9368fab30aa9461e9"
+    } ],
+    "uid" : "203167c3b47c482e11522dd5bdeececa"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Test timeout of 300000ms exceeded.",
+      "children" : [ {
+        "name" : "API preconditions for Checkout",
+        "uid" : "6ca2eedc83dcdd1e",
+        "parentUid" : "68be014d3706cb52493442822f8e87d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728547118042,
+          "stop" : 1728547418050,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "env",
+        "uid" : "e847840b23f244f5",
+        "parentUid" : "68be014d3706cb52493442822f8e87d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728547418629,
+          "stop" : 1728547718637,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "68be014d3706cb52493442822f8e87d1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

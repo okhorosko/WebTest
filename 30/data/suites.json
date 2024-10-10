@@ -1,0 +1,194 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "createUser.spec.ts",
+      "children" : [ {
+        "name" : "API SignUp Incorrect Email format",
+        "uid" : "e3b3b71d801cdbe6",
+        "parentUid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546464913,
+          "stop" : 1728546465753,
+          "duration" : 840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up",
+        "uid" : "339da46d5cdff118",
+        "parentUid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546467367,
+          "stop" : 1728546471882,
+          "duration" : 4515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up via API",
+        "uid" : "a97b46d34524afdc",
+        "parentUid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546471883,
+          "stop" : 1728546476647,
+          "duration" : 4764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign in via API",
+        "uid" : "950d2c48d27f3b3e",
+        "parentUid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546476652,
+          "stop" : 1728546481368,
+          "duration" : 4716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up. Email validation",
+        "uid" : "71e4561826e1a560",
+        "parentUid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546481373,
+          "stop" : 1728546485101,
+          "duration" : 3728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Sign up. Password validation",
+        "uid" : "3f3a10dee5803438",
+        "parentUid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546485106,
+          "stop" : 1728546489497,
+          "duration" : 4391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "ccac7c2f5eb4db0f29cbed47aa7b36f5"
+    }, {
+      "name" : "loginValidation.spec.ts",
+      "children" : [ {
+        "name" : "Login Validation",
+        "children" : [ {
+          "name" : "Login validation. Incorrect password",
+          "uid" : "c0b286f0e12cb46",
+          "parentUid" : "a20b2c12c164fac6192625128efd035d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728546489508,
+            "stop" : 1728546494253,
+            "duration" : 4745
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "Login validation. Incorrect Email",
+          "uid" : "155230f8d6809d98",
+          "parentUid" : "a20b2c12c164fac6192625128efd035d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728546494258,
+            "stop" : 1728546498538,
+            "duration" : 4280
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "Login validation. Incorrect Email format",
+          "uid" : "40c7a4291304f4",
+          "parentUid" : "a20b2c12c164fac6192625128efd035d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728546498542,
+            "stop" : 1728546502685,
+            "duration" : 4143
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "Login validation. Empty Password",
+          "uid" : "af06b5c45a9d301b",
+          "parentUid" : "a20b2c12c164fac6192625128efd035d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728546502689,
+            "stop" : 1728546507068,
+            "duration" : 4379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chromium" ]
+        } ],
+        "uid" : "a20b2c12c164fac6192625128efd035d"
+      } ],
+      "uid" : "96d5086d78a31ed2ed277c932b6c5731"
+    }, {
+      "name" : "purchase.spec.ts",
+      "children" : [ {
+        "name" : "Continue shoping with API registration",
+        "uid" : "ee42aa87d381bd4e",
+        "parentUid" : "9fc6904e8e3b98ca7faf60318f192f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728546507076,
+          "stop" : 1728546516681,
+          "duration" : 9605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "API preconditions for Checkout",
+        "uid" : "6ca2eedc83dcdd1e",
+        "parentUid" : "9fc6904e8e3b98ca7faf60318f192f7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728547118042,
+          "stop" : 1728547418050,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "env",
+        "uid" : "e847840b23f244f5",
+        "parentUid" : "9fc6904e8e3b98ca7faf60318f192f7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728547418629,
+          "stop" : 1728547718637,
+          "duration" : 300008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "9fc6904e8e3b98ca7faf60318f192f7f"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ],
+  "name" : "suites"
+}
